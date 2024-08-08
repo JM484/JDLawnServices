@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>JD Lawn Services/Quote</title>
+<link rel="stylesheet" href="style.css">
+<script src="index.js"></script>
+</head>
+
+
+<div id="topbox">
+    <img src="JDLogo.jpg" id="logo">
+    <div id="Btopbox">
+    <a href="index.html"><button class="H-button">Home</button></a>
+    <a href="quote.html"><button class="H-button"
+        style="background-color: rgb(17, 85, 17); color: white; border: 3px solid black;"
+        >Get a Quote</button></a>
+    <a href="results.html"><button class="H-button">Results</button></a>
+    <a href="aboutus.html"><button class="H-button">About Us</button></a>
+    </div>
+</div>
+
+<center><p id="MainTitle"><b>JD LAWN SERVICES</b></p></center>
+
+<center><p id="p2">Please provide your information below </p> </center>
+
+
+   
+<form action="https://formspree.io/f/mpzvvela" method="POST">
+
+
+<div id="bodyform">     
+<label for="firstName">First Name:</label>
+<input id="inputbox" required type="text" name="firstName" 
+placeholder="John" autocomplete="on"> <br>
+<br>
+
+<label for="lastName">Last Name:</label>
+<input id="inputbox" type="text" name="lastName" 
+placeholder="Pork" autocomplete="on"> <br>
+<br>
+
+<label for="phoneNumber">Phone Number:</label>
+<input id="inputbox" required type="tel" name="phoneNumber" 
+placeholder="(000)123-4567" autocomplete="on"> <br>
+<br>
+
+<label for="address">Address:</label>
+<input id="inputbox" required type="text" name="Address" 
+placeholder="123 Street" autocomplete="on"> <br>
+<br>
+
+<label for="details">Extra Details:</label>
+<textarea id="inputbox" required type="text" name="details" 
+placeholder="Enter text" rows="5" cols="50"></textarea> <br><br>
+
+<label>Heavily Overgrown</label>
+<input type="checkbox"> <br> <br>
+
+<label>Bagged Clippings</label>
+<input type="checkbox"> <br> <br>
+
+
+</div>
+
+
+
+<br>
+<center><button id="submitbutton"><strong>Submit</strong></button></center>
+
+</form>
+
+</html>
+

@@ -1,0 +1,172 @@
+html {
+    height: 100%;
+}
+main{
+    flex-grow: 1;
+}
+body{
+    background-image: linear-gradient(to bottom, #ffffff, #8df47d);;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    min-width: 1000px
+}
+#logo{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+#topbox{
+    /* position: sticky; */
+    top: 0px;
+    bottom: 0px;
+    height: fit-content;
+    min-width: 800px
+}
+#Btopbox{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    min-width: 750px;
+
+}
+#quotebox {
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 15px;
+    background-color: #15db1f49;
+    border: 2px solid;
+    margin: top 30%;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right:20%;
+    padding: 15px;
+    max-width: 600px;
+
+}
+#MainTitle{
+font-size: 500%;
+font-family: 'Segoe UI';
+color:rgb(17, 85, 17);
+
+}
+.H-button{
+    background-color: #ffffff;
+    font-size: 150%;
+    font-family: 'Segoe UI';
+    border: 3px solid;
+    border-radius: 15px;
+    margin-top: 7px;
+    width: 180px;
+    font-weight: bold;
+}
+h1{
+    color:black;
+    font-family: 'Segoe UI';
+    font-size: 300%;
+}
+p{
+    color: black;
+}
+#p1{
+    font-size: 500%;
+    font-family:'Segoe UI' ;
+    color:rgb(17, 85, 17);
+}
+#p2{
+    font-size: 150%;
+    font-family:'Segoe UI' ;
+}
+#p3{
+    font-size: 200%;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    padding-left: 25px;
+}
+#OurServices{
+    font-size: 300%;
+    font-family:'Segoe UI' ;
+    color:rgb(17, 85, 17);
+}
+#blocks{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#quotebutton{
+    width:100%;
+    min-width: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 300%;
+    border:2px solid black;
+    background-color: rgb(240, 217, 15);
+    border-radius: 15px;
+    font-family: 'Segoe UI';
+    margin: auto;
+
+}
+#submitbutton{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 200%;
+    border:2px solid rgb(0, 0, 0);
+    /* box-shadow: 0px 0px 3px black; */
+    background-color: #d9fdd9;
+    border-radius: 15px;
+    color: #000000;
+}
+label{
+    font-size: 130%;
+    font-family: 'Segoe UI';
+}
+#bodyform{
+    background-color: #d9fdd9;
+    border: 2px solid;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    padding: 15px;
+    min-width: 400px;
+    width: 100px;
+    margin: auto;
+}
+#inputbox{
+    font: 'Segoe UI';
+    border: 1px solid;
+    border-radius: 5px;
+}
+.pic{
+    height:300px;
+    width: 400px;
+    border: 10px solid;
+    border-color: black;
+}
+.Spic{
+    height:200px;
+    width: 250px;
+    border: 3px solid;
+    border-color: black;
+}
+#mower{
+    animation: Slide linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes Slide{
+    from{margin-left: 110%;}
+    to{margin-left: -30%;}
+}
+
