@@ -28,38 +28,51 @@
    
 <form action="https://formspree.io/f/mpzvvela" method="POST">
 
-
-<div id="bodyform">     
-<label for="firstName">First Name:</label>
-<input id="inputbox" required type="text" name="firstName" 
-placeholder="John" autocomplete="on"> <br>
+<div id="bodyform">
+    <p id="formsubtitle"><b>Contact Information</b></p>
+    <div id="contactinfo">     
+        <label for="firstName">First Name:</label>
+        <input id="inputbox" required type="text" name="firstName" 
+        placeholder="John" autocomplete="on"> <br>
 <br>
 
-<label for="lastName">Last Name:</label>
-<input id="inputbox" type="text" name="lastName" 
-placeholder="Pork" autocomplete="on"> <br>
+        <label for="lastName">Last Name:</label>
+        <input id="inputbox" type="text" name="lastName" 
+        placeholder="Pork" autocomplete="on"> <br>
 <br>
 
-<label for="phoneNumber">Phone Number:</label>
-<input id="inputbox" required type="tel" name="phoneNumber" 
-placeholder="(000)123-4567" autocomplete="on"> <br>
+        <label for="phoneNumber">Phone Number:</label>
+        <input id="inputbox" required type="tel" name="phoneNumber" 
+        placeholder="(000)123-4567" autocomplete="on"> <br>
 <br>
 
-<label for="address">Address:</label>
-<input id="inputbox" required type="text" name="Address" 
-placeholder="123 Street" autocomplete="on"> <br>
+        <label for="address">Address:</label>
+        <input id="inputbox" required type="text" name="Address" 
+        placeholder="123 Street" autocomplete="on"> <br>
 <br>
+<br>
+    </div>
 
-<label for="details">Extra Details:</label>
-<textarea id="inputbox" required type="text" name="details" 
-placeholder="Enter text" rows="5" cols="50"></textarea> <br><br>
+    <div id="lawndetails">
+        <br>
+        <p id="formsubtitle"><b>Lawn Details</b></p>
 
-<label>Heavily Overgrown</label>
-<input type="checkbox"> <br> <br>
+        <label for="details">Extra Details:</label>
+        <textarea style="margin-left: 70px; margin-top: 10px;" id="inputbox" required type="text" name="details" 
+        placeholder="Enter text" rows="5" cols="50"></textarea> <br><br>
 
-<label>Bagged Clippings</label>
-<input type="checkbox"> <br> <br>
+        <div id="quotecheckbox">
+            <input type="checkbox" id="cb1">
+            <label for="cb1" id="checkboxlabel">Heavily Overgrown</label>
+        </div>
+        <br> <br>
 
+        <div id="quotecheckbox">
+            <input  type="checkbox" id="cb1">
+            <label for="cb1" id="checkboxlabel">Bagged Clippings</label>
+        </div>
+        <br> <br>
+    </div>
 
 </div>
 
