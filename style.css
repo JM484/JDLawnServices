@@ -130,7 +130,8 @@ p{
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .prev, .next {
   cursor: pointer;
